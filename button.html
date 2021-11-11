@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>Button</title>
+</head>
+<body>
+  <fieldset>
+    <legend>배송 정보</legend>
+    <ul>
+      <li>
+        <label for="uname">이름</label>
+        <input type="text" id="uname">
+      </li>
+      <li>
+        <label for="uaddr">배송 주소</label>
+        <input type="text" id="uaddr">
+      </li>
+      <li>
+        <label for="umail">이메일</label>
+        <input type="email" id="umail">
+      </li>
+      <li>
+        <label for="uphone">연락처</label>
+        <input type="tel" id="uphone">
+      </li>
+      <li>
+        <label for="udate">배송 지정 (주문일로부터 최소 3일 이후)</label>
+        <input type="datetime-local" id="udate">
+      </li>
+    </ul>
+    <input type="submit" value="주문하기">
+    <input type="reset" value="취소하기">
+  </fieldset>
+</body>
+</html>
